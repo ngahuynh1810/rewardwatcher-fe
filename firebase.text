@@ -1,0 +1,27 @@
+{
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "asia-east1"
+    },
+    "rewrites": [
+      {
+        "source": "/stores/**",
+        "destination": "/stores/[storeCode].html"
+      },
+      {
+        "source": "/popular-stores/**",
+        "destination": "/popular-stores/[storeCode].html"
+      },
+      {
+        "source": "/search/**",
+        "destination": "/search/[keyword].html"
+      }
+    ]
+  }
+}

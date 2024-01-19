@@ -1,0 +1,467 @@
+@media (min-width: 1600px) {
+  h1 {
+      font-size: 3.34rem;
+  }
+  h2 {
+      font-size: 2.5rem;
+  }
+  h3 {
+      font-size: 2rem;
+  }
+  h4 {
+      font-size: 1.75rem;
+  }
+  h5 {
+      font-size: 1.5rem;
+  }
+  h6 {
+      font-size: 1.25rem;
+  }
+  .fs-1 {
+      font-size: 3.34rem;
+  }
+  .fs-2 {
+      font-size: 2.5rem;
+  }
+  .fs-3 {
+      font-size: 2rem;
+  }
+  .fs-4 {
+      font-size: 1.75rem;
+  }
+  .fs-5 {
+      font-size: 1.5rem;
+  }
+  .fs-6 {
+      font-size: 1.25rem;
+  }
+  .fs-7 {
+   font-size: 1rem;
+  }
+  .fs-8 {
+      font-size: 0.9rem;
+  }
+  .fs-9 {
+      font-size: 0.8rem;
+  }
+  .row > * {
+      --bs-gutter-x: 1.3rem;
+      --bs-gutter-y: 0;
+      padding-right: calc(var(--bs-gutter-x) * 0.5);
+      padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+  .container {
+      max-width:  1536px
+  }
+  .modal_subscribe {
+      width: 788px;
+      height: 328px;
+  } 
+  .modal_success_subscribe {
+    width: 788px;
+    height: 602px;
+  }
+  .modal_cashback {
+    width: 570px;
+    height: 524px;
+  }
+  .container_banner .carousel-item {
+      height: 416px;
+  }
+  .banner_image {
+      position: absolute;
+      right: 1rem;
+      /* bottom: 0%; */
+     
+      object-fit: contain;
+  }
+  .description_banner {
+    font-size: 1rem;
+  }
+  .title_banner {
+    font-size: 2.5rem;
+  } 
+  .hightlight_banner {
+    /* font-size: 1.8rem; */
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  } 
+  .box_coupon {
+    box-shadow: 0px 4px 10px 2px #5F6E8A1F;
+    margin: 0.6rem;
+    padding: 0.8rem;
+    border-radius: 12px;
+    gap: 0.9rem;
+  }
+  .container_coupon {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .container_coupon .slick-slide  {
+    width: 230px;
+  }
+  .box_cashback_card {
+    height: 240px;
+  }
+  .container_cashback_card .slick-slide {
+    width: 504px
+  }
+  .container_favorite  {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .container_session_stores {
+    margin-top: 5rem;
+  }
+  .subtitle_section {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 1.223rem;
+  }
+  .button_success_subscribe {
+    width: 165px;
+    height: 50px
+  }
+  .button_header {
+    width: 165px;
+    height: 50px
+  }
+  .scrolling-carousel {
+    margin-left: 1.5rem;
+     padding-right: 1.5rem;
+   }
+   .container_cashback_card {
+    /* margin-bottom: -8rem; */
+    padding-top: 5rem;
+    padding-bottom: 5rem
+   }
+   .container_banner {
+    max-width: 1536px;
+   } 
+   .banner_only_image img{
+        object-fit: fill;
+        border-radius: 50px;
+    }
+}
+@media (min-width: 1000px) {
+  .banner_only_image img{
+    object-fit: fill;
+    border-radius: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1240px;
+  }
+}
+@media (max-width: 992px) {
+  .image_cashback_card  {
+    width: 112px;
+    height: 112px;
+    margin: auto;
+  }
+  .container_cashback_card .slick-slide {
+    width: 235px
+  }
+  .container_coupon .slick-slide  {
+    width: 210px;
+  }
+  .box_cashback_card {
+    height: 280px;
+  }
+  .box_coupon {
+    box-shadow: 0px 4px 10px 2px #5F6E8A1F;
+    margin: 0.6rem;
+    padding: 0.8rem;
+    border-radius: 12px;
+    gap: 0.9rem;
+  }
+  .subtitle_section {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+    .container_input_search {
+      margin-top: 1rem;
+      order: 3;
+    }
+    .logo_header {
+      width: 40px;
+      height: 48px;
+      margin-right: 0.2rem;
+    }
+    .button_header {
+      padding: 0.4rem 1rem;
+      font-size: 0.8rem;
+    } 
+    .button_banner {
+      display: flex;
+      justify-content: center;
+      font-size: 16px;
+      width: 212px;
+      height: 50px;
+      padding: 0.8rem;
+      align-items: center;
+    }
+    .container_banner .banner_background img {
+      display: none;
+     }
+     .container_banner .carousel-caption {
+       color: #14151A;
+       width: 90%;
+       left: 6%;
+       top: 16%;
+       padding: 0.3rem;
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       text-align: start;
+     }
+   .description_banner {
+     margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+      -webkit-line-clamp: 2;
+      line-clamp: 2;
+  }
+   .hightlight_banner {
+     margin-bottom: 2rem;
+   }
+   .container_banner .carousel-item {
+     height: 320px;
+   }
+   .carousel-control-next {
+     right: -10px;
+     width: 50px;
+   }
+   .carousel-control-prev {
+     left: -10px;
+     width: 50px;
+   }
+   .button_coupon {
+        width: 100%;
+   }
+   .primary_section button {
+    width: 60%;
+   }
+   .title_banner {
+    font-size: 2.5rem;
+  } 
+   .container_banner .icon {
+    display: none
+   }
+   .container_banner .banner_background {
+    border-radius: 0;
+   }
+   .container_banner  {
+    padding: 0
+   }
+   .section_title {
+    width: 100%;
+    margin: auto
+  }
+  .container_section_company_footer {
+    display: flex;
+    flex-direction: column;;
+  }
+  .container_section_company_footer .logo_company{
+    width: 54px;
+    height: 64px;
+    margin-bottom: 1rem;
+  }
+  .store_cashback_name {
+    display: block;
+  }
+  .box_store_cashback .image_store {
+    margin-bottom: 1rem !important;
+  }
+  .dropdow_header {
+    width:  min-content;
+    padding-right: 1.8rem !important;
+  }
+  .box_subscribe {
+    display: grid;
+    gap:1rem;
+  }
+  .button_subscribe {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .container_cashback_card {
+    background-color: #F5F6F8;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+.container_input_search {
+    margin-top: 1rem;
+    order: 3;
+}
+.logo_header {
+    width: 40px;
+    height: 48px;
+    margin-right: 0.5rem;
+}
+.button_header {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;  
+} 
+.button_banner {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  width: 212px;
+  height: 50px;
+  padding: 0.8rem;
+  align-items: center;
+}
+.banner_background img {
+    display: none;
+}
+.container_banner .carousel-caption {
+    color: #14151A;
+    width: 90%;
+    left: 6%;
+    top: 1%;
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    height: 100%;
+} 
+.title_banner {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  line-height: 2.5rem;
+}
+.container_banner .carousel-item {
+height: 260px;
+border-radius: 0
+}
+.carousel-control-next {
+right: -10px;
+width: 50px;
+}
+.carousel-control-prev {
+left: -10px;
+width: 50px;
+}
+.button_coupon {
+    width: 100%;
+}
+.primary_section button {
+    width: 60%;
+   }
+   .container_banner .icon {
+    display: none
+   }
+   .container_banner .banner_background {
+    border-radius: 0;
+   }
+  .container_banner  {
+    padding: 0
+   }
+   .section_title {
+    width: 100%;
+    margin: auto
+  }
+  .container_section_company_footer {
+    display: flex;
+    flex-direction: column;;
+  }
+  .banner_only_image img{
+    object-fit: fill;
+  }
+  .store_cashback_name {
+    display: block;
+  }
+  .box_store_cashback .image_store {
+    margin-bottom: 1rem !important;
+  }
+  .dropdow_header {
+    width:  min-content;
+    padding-right: 1.8rem !important;
+  }
+  .subtitle_section {
+    font-size: 0.9rem;
+  }
+  .store_name {
+    font-size: 0.9rem;
+  }
+  .store_cashback_value {
+    font-size: 0.78rem;
+  }
+  .coupon_cashback_title {
+    font-size: 0.9rem ;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical
+  }
+  .coupon_cashback_value {
+    font-size: 0.8rem;
+  }
+  .coupon_cashback_description {
+    font-size: 0.7rem
+  }
+  .image_favorite_left {
+    height: 232px;
+    left: -102px;
+    transform: rotate(-16deg);
+    top: -20px;
+}
+  .image_favorite_right {
+    width: 673px;
+    height: 586px;
+    bottom: -100px;
+  } 
+  .box_coupon {
+    box-shadow: 0px 4px 10px 2px #5F6E8A1F;
+    margin: 0.6rem;
+    padding: 0.8rem;
+    border-radius: 12px;
+    gap: 0.9rem;
+  }
+  .container_coupon .slick-slide  {
+    width: 210px;
+  }
+  .container_cashback_card .slick-slide {
+    width: 235px
+  }
+  .box_cashback_card {
+    height: 280px;
+  }
+  .image_cashback_card  {
+    width: 112px;
+    height: 112px;
+    margin: auto;
+  } 
+  .hightlight_banner {
+    margin-bottom: 40px !important;
+    font-size: 22px;
+    margin-bottom: 0.2rem;
+    line-height: 32px;
+  }
+  .description_banner {
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    margin-bottom: 20px;
+  font-size: .89rem;
+  line-height: 22px;
+}
+.input_subscribe  {
+  width: 100%
+}
+.box_subscribe {
+  display: grid;
+  gap:1rem;
+}
+.button_subscribe {
+  width: 100%;
+}
+.button_success_subscribe {
+    width: 60%;
+    font-size: 0.9rem;
+}
+}
